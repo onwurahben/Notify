@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/drawable/circle.xml" value="0.134" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/drawable/ic_frame_1.xml" value="0.131" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/drawable/line_decoration.xml" value="0.153" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/font/font.xml" value="0.2296875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/activity_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/activity_sketch.xml" value="0.1618421052631579" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/app_bar_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/content_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/content_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_create_note.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_favorites.xml" value="0.15775972637879435" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_first.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_gallery.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_home.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_list_notes.xml" value="0.15775972637879435" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_notifications.xml" value="0.15775972637879435" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_second.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_sketch.xml" value="0.12" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_slideshow.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/fragment_welcome.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/grid_layout_item.xml" value="0.15220179563916203" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/item_layout.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/labels_dialog.xml" value="0.17" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/nav_header_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/note_item_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/note_item_layout2.xml" value="0.14" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/note_item_layout_locked.xml" value="0.1618421052631579" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/layout/toolbar_layout.xml" value="0.15775972637879435" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/activity_main_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/bottom_app_bar.xml" value="0.16374519025224454" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/bottom_bar_draw.xml" value="0.1618421052631579" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/bottom_bar_edit.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/bottom_sheet_menu.xml" value="0.15775972637879435" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/menu_main.xml" value="0.1618421052631579" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Notify2/app/src/main/res/menu/toolbar_edit.xml" value="0.1618421052631579" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

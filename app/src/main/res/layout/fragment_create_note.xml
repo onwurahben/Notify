@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="view_model"
+            type="com.deepvision.notify.CreateNotes.CreateNoteViewModel" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CreateNotes.CreateNoteFragment"
+        android:background="#595A5A">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height= "50dp"
+                app:menu="@menu/toolbar_edit">
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#635D5D"
+            android:hint="Title"
+            android:padding="10dp"
+            android:text="@{view_model.title}"
+            android:textColorHint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+        <View
+            android:id="@+id/label"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_label_24"
+            android:backgroundTint="@color/orange"
+            app:layout_constraintBottom_toBottomOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.672"
+            app:layout_constraintStart_toEndOf="@+id/title"
+            app:layout_constraintTop_toTopOf="@+id/title"
+            android:onClick="@{() -> view_model.openDialog()}"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#635D5D"
+            android:gravity="top"
+            android:hint="Write something..."
+            android:text="@{view_model.description}"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background ="@color/orange"
+            android:id="@+id/bottom_bar"
+            app:menu="@menu/bottom_bar_edit" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

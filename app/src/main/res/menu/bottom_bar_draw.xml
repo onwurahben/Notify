@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="brush"
+        android:icon="@drawable/ic_baseline_brush_24"
+        app:showAsAction="always"
+        android:id="@+id/draw"/>
+    <item
+        android:title="redo"
+        android:id="@+id/redo"
+        android:icon="@drawable/ic_baseline_redo_24"
+        app:showAsAction="always"/>
+
+</menu>

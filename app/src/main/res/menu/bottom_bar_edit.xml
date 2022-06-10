@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_baseline_text_format_24"
+        app:showAsAction="always"
+        android:title="font"
+        android:id="@+id/font_style"/>
+
+    <item
+        android:title="Color"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_baseline_palette_24"
+        android:id="@+id/color"/>
+
+    <item
+        android:title="Background"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:id="@+id/background"/>
+
+</menu>

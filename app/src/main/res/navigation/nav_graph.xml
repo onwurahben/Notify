@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.deepvision.notify.ListNotes.ListNotesFragment"
+        android:label="ListNotes"
+        tools:layout="@layout/fragment_list_notes">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_createNoteFragment"
+            app:destination="@id/createNoteFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_sketchFragment"
+            app:destination="@id/sketchFragment" />
+
+        <argument
+            android:name="userMessage"
+            app:argType="integer"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.deepvision.notify.FavoriteNotes.FavoriteNotesFragment"
+        android:label="favorites"
+        tools:layout="@layout/fragment_favorites">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNoteFragment"
+        android:name="com.deepvision.notify.CreateNotes.CreateNoteFragment"
+        android:label="fragment_create_note"
+        tools:layout="@layout/fragment_create_note">
+
+        <argument
+            android:name="NoteId"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_createNoteFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_createNoteFragment_to_labelDialogFragment"
+            app:destination="@id/labelDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sketchFragment"
+        android:name="com.deepvision.notify.Sketch.SketchFragment"
+        android:label="fragment_sketch"
+        tools:layout="@layout/fragment_sketch" />
+    <dialog
+        android:id="@+id/modalBottomSheet"
+        android:name="com.deepvision.notify.ModalBottomSheet"
+        android:label="ModalBottomSheet"
+        tools:layout="@layout/bottom_sheet"/>
+    <dialog
+        android:id="@+id/labelDialogFragment"
+        android:name="com.deepvision.notify.LabelDialogFragment"
+        android:label="LabelDialogFragment" />
+</navigation>
